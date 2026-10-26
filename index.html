@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · CookBang / 厨邦帮 / 廚邦幫</title>
+  <meta name="description" content="Privacy Policy for CookBang (厨邦帮 / 廚邦幫) by Infomacro Information Technology Limited." />
+  <style>
+    :root {
+      --bg: #f6f3ee;
+      --surface: #fffdf9;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #e7e5e4;
+      --accent: #0f766e;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(1200px 500px at 10% -10%, #d9f99d55, transparent 60%),
+        radial-gradient(900px 400px at 100% 0%, #99f6e455, transparent 55%),
+        var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 28px 18px 64px;
+    }
+    header {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 22px 16px;
+      margin-bottom: 18px;
+    }
+    .brand {
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      color: var(--accent);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 6px 0 8px;
+      font-size: 1.75rem;
+      line-height: 1.25;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+    .langs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .langs button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 8px 14px;
+      font: inherit;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .langs button[aria-selected="true"] {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    article {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 8px 22px 28px;
+    }
+    article[hidden] { display: none; }
+    h2 {
+      margin-top: 1.6em;
+      font-size: 1.2rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.35em;
+    }
+    h3 {
+      margin-top: 1.2em;
+      font-size: 1.05rem;
+    }
+    p, li { color: var(--ink); }
+    strong { font-weight: 700; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">InfoMacro · CookBang</div>
+      <h1 id="page-title">隐私政策</h1>
+      <p class="meta" id="page-meta">应用名称：厨邦帮（CookBang） · 最近更新：2026-10-26 · 发布方：InfoMacro</p>
+      <div class="langs" role="tablist" aria-label="Language">
+        <button type="button" role="tab" id="tab-zh-cn" aria-selected="true" data-lang="zh-cn">简体中文</button>
+        <button type="button" role="tab" id="tab-zh-tw" aria-selected="false" data-lang="zh-tw">繁體中文</button>
+        <button type="button" role="tab" id="tab-en" aria-selected="false" data-lang="en">English</button>
+      </div>
+    </header>
+
+    <!-- Simplified Chinese -->
+    <article id="panel-zh-cn" role="tabpanel" lang="zh-Hans">
+      <p>本隐私政策说明您在使用厨邦帮 Android 应用（下称「本应用」）时，我们如何处理相关信息。使用本应用即表示您理解并同意本政策。</p>
+
+      <h2>1. 概述</h2>
+      <p>厨邦帮提供：</p>
+      <ul>
+        <li>菜谱浏览与搜索（通过公开 HowToCook API）</li>
+        <li>保存在本机的烹饪笔记</li>
+        <li>应用内打包的烹饪技巧内容</li>
+        <li>可选的「AI 厨师」功能：可将文字及（经您主动选择的）菜品照片发送至第三方 AI 服务，获取烹饪相关回答</li>
+      </ul>
+      <p>本应用<strong>不要求</strong>注册账号，也<strong>不会出售</strong>您的个人信息。</p>
+
+      <h2>2. 我们处理的信息</h2>
+      <h3>2.1 仅保存在您设备上的信息</h3>
+      <p><strong>烹饪笔记（标题、文字、您添加的图片）</strong><br />用途：供您记录烹饪心得<br />是否共享：否（除非您自行导出或分享）</p>
+      <p><strong>菜谱列表缓存</strong><br />用途：提升浏览体验、弱网可用<br />是否共享：否</p>
+      <p><strong>语言偏好</strong><br />用途：记住界面语言<br />是否共享：否</p>
+
+      <h3>2.2 使用网络功能时处理的信息</h3>
+      <p><strong>菜谱与搜索相关请求</strong><br />何时：浏览或搜索菜谱时<br />用途：获取菜谱内容<br />接收方：HowToCook 公开 API（api.howtocook.cn）及图片 CDN</p>
+      <p><strong>AI 厨师中您输入的文字</strong><br />何时：发送消息时<br />用途：生成烹饪建议<br />接收方：SiliconFlow AI API（api.siliconflow.cn）</p>
+      <p><strong>AI 厨师中您附加的照片（拍照或选图）</strong><br />何时：仅当您主动添加图片时<br />用途：识菜、结合图像回答烹饪问题<br />接收方：SiliconFlow AI API</p>
+      <p><strong>基础技术数据（如 IP、TLS 连接元数据）</strong><br />何时：连接服务器时自动产生<br />用途：完成并保障传输安全<br />接收方：网络运营商及上述 API 运营方</p>
+      <p>我们<strong>无意收集</strong>：姓名、邮箱、电话、精确位置、通讯录、短信、通话记录，或用于广告画像的广告 ID。</p>
+
+      <h3>2.3 权限说明</h3>
+      <p><strong>网络 / 网络状态</strong><br />用于加载菜谱、调用 AI 服务。</p>
+      <p><strong>相机</strong><br />可选。用于为 AI 厨师拍摄菜品照片。</p>
+      <p>相册选图使用系统文档或照片选择器（SAF），<strong>不需要</strong>申请读取全部照片或存储读权限。</p>
+      <p>您可拒绝相机权限；菜谱浏览、笔记与技巧仍可使用。未授权时仅无法使用 AI 拍照；从相册选图无需存储权限。</p>
+
+      <h2>3. AI 处理说明</h2>
+      <p>若您使用 AI 厨师：</p>
+      <ul>
+        <li>您提交的内容（文字及可选图片）将传输至 SiliconFlow 以生成回复。</li>
+        <li><strong>请勿</strong>提交敏感个人信息、未经授权的他人隐私照片、医疗诊断诉求或违法内容。</li>
+        <li>AI 回答仅供一般烹饪参考，不构成专业营养、医疗或食品安全认证意见。</li>
+        <li>图片用于当次请求处理；本应用当前版本不运营独立的云端相册来保存您的照片。</li>
+      </ul>
+
+      <h2>4. 儿童隐私</h2>
+      <p>本应用面向对烹饪感兴趣的一般用户，并非专门面向 13 岁以下儿童（或您所在地区的同等年龄门槛）。我们不会故意收集儿童的个人信息。如您认为儿童通过本应用提供了个人信息，请联系我们以便协助处理本机数据清理指引。</p>
+
+      <h2>5. 保存期限</h2>
+      <ul>
+        <li>本机笔记与缓存在您删除内容或卸载应用前会保留。</li>
+        <li>网络请求由第三方 API 按其自身政策处理。当前版本不在厨邦帮自有云端长期保存您的聊天或笔记。</li>
+      </ul>
+
+      <h2>6. 安全</h2>
+      <p>API 通信使用 HTTPS。任何传输或存储方式都无法保证百分之百安全，请妥善保管并及时更新设备。</p>
+
+      <h2>7. 第三方服务</h2>
+      <p><strong>HowToCook API / CDN</strong><br />作用：提供菜谱与图片<br />政策：howtocook.cn 相关运营方政策</p>
+      <p><strong>SiliconFlow</strong><br />作用：AI 对话与视觉识别<br />政策：<a href="https://siliconflow.cn" rel="noopener noreferrer">https://siliconflow.cn</a>（以其隐私条款为准）</p>
+      <p><strong>Google Play / Android 系统</strong><br />作用：应用分发、系统相册选择器与相机<br />政策：Google 隐私政策</p>
+
+      <h2>8. 您的选择</h2>
+      <ul>
+        <li>在 <strong>设置 → 语言</strong> 切换语言</li>
+        <li>在笔记页删除笔记</li>
+        <li>在系统应用设置中撤销相机权限</li>
+        <li>卸载应用以清除本机数据库与缓存</li>
+      </ul>
+
+      <h2>9. 跨境与多语言</h2>
+      <p>本应用可提供繁体中文、简体中文与英文界面。网络服务可能位于您所在国家/地区之外；使用网络功能即表示您理解数据可能在服务提供商运营地区处理，并受适用法律约束。</p>
+
+      <h2>10. 政策变更</h2>
+      <p>我们可能更新本政策，并修改「最近更新日期」。更新后继续使用本应用，即视为接受修订内容。重大变更将尽可能在应用内提示。</p>
+
+      <h2>11. 联系我们</h2>
+      <p>有关厨邦帮隐私问题，请通过以下方式联系我们：</p>
+      <p><strong>邮箱：</strong> <a href="mailto:infomacro.service@gmail.com">infomacro.service@gmail.com</a><br />
+      <strong>开发者 / 主体名称：</strong> 万高信息科技有限公司（Infomacro Information Technology Limited）<br />
+      <strong>联系电话：</strong> +853 62121538</p>
+    </article>
+
+    <!-- Traditional Chinese -->
+    <article id="panel-zh-tw" role="tabpanel" lang="zh-Hant" hidden>
+      <p>本隱私政策說明您在使用廚邦幫 Android 應用（下稱「本應用」）時，我們如何處理相關信息。使用本應用即表示您理解並同意本政策。</p>
+
+      <h2>1. 概述</h2>
+      <p>廚邦幫提供：</p>
+      <ul>
+        <li>菜譜瀏覽與搜索（通過公開 HowToCook API）</li>
+        <li>保存在本機的烹飪筆記</li>
+        <li>應用內打包的烹飪技巧內容</li>
+        <li>可選的「AI 廚師」功能：可將文字及（經您主動選擇的）菜品照片發送至第三方 AI 服務，獲取烹飪相關回答</li>
+      </ul>
+      <p>本應用<strong>不要求</strong>註冊賬號，也<strong>不會出售</strong>您的個人信息。</p>
+
+      <h2>2. 我們處理的信息</h2>
+      <h3>2.1 僅保存在您設備上的信息</h3>
+      <p><strong>烹飪筆記（標題、文字、您添加的圖片）</strong><br />用途：供您記錄烹飪心得<br />是否共享：否（除非您自行導出或分享）</p>
+      <p><strong>菜譜列表緩存</strong><br />用途：提升瀏覽體驗、弱網可用<br />是否共享：否</p>
+      <p><strong>語言偏好</strong><br />用途：記住界面語言<br />是否共享：否</p>
+
+      <h3>2.2 使用網絡功能時處理的信息</h3>
+      <p><strong>菜譜與搜索相關請求</strong><br />何時：瀏覽或搜索菜譜時<br />用途：獲取菜譜內容<br />接收方：HowToCook 公開 API（api.howtocook.cn）及圖片 CDN</p>
+      <p><strong>AI 廚師中您輸入的文字</strong><br />何時：發送消息時<br />用途：生成烹飪建議<br />接收方：SiliconFlow AI API（api.siliconflow.cn）</p>
+      <p><strong>AI 廚師中您附加的照片（拍照或選圖）</strong><br />何時：僅當您主動添加圖片時<br />用途：識菜、結合圖像回答烹飪問題<br />接收方：SiliconFlow AI API</p>
+      <p><strong>基礎技術數據（如 IP、TLS 連接元數據）</strong><br />何時：連接服務器時自動產生<br />用途：完成並保障傳輸安全<br />接收方：網絡運營商及上述 API 運營方</p>
+      <p>我們<strong>無意收集</strong>：姓名、郵箱、電話、精確位置、通訊錄、短信、通話記錄，或用於廣告畫像的廣告 ID。</p>
+
+      <h3>2.3 權限說明</h3>
+      <p><strong>網絡 / 網絡狀態</strong><br />用於加載菜譜、調用 AI 服務。</p>
+      <p><strong>相機</strong><br />可選。用於為 AI 廚師拍攝菜品照片。</p>
+      <p>相冊選圖使用系統文檔或照片選擇器（SAF），<strong>不需要</strong>申請讀取全部照片或存儲讀權限。</p>
+      <p>您可拒絕相機權限；菜譜瀏覽、筆記與技巧仍可使用。未授權時僅無法使用 AI 拍照；從相冊選圖無需存儲權限。</p>
+
+      <h2>3. AI 處理說明</h2>
+      <p>若您使用 AI 廚師：</p>
+      <ul>
+        <li>您提交的內容（文字及可選圖片）將傳輸至 SiliconFlow 以生成回覆。</li>
+        <li><strong>請勿</strong>提交敏感個人信息、未經授權的他人隱私照片、醫療診斷訴求或違法內容。</li>
+        <li>AI 回答僅供一般烹飪參考，不構成專業營養、醫療或食品安全認證意見。</li>
+        <li>圖片用於當次請求處理；本應用當前版本不運營獨立的雲端相冊來保存您的照片。</li>
+      </ul>
+
+      <h2>4. 兒童隱私</h2>
+      <p>本應用面向對烹飪感興趣的一般用戶，並非專門面向 13 歲以下兒童（或您所在地區的同等年齡門檻）。我們不會故意收集兒童的個人信息。如您認為兒童通過本應用提供了個人信息，請聯繫我們以便協助處理本機數據清理指引。</p>
+
+      <h2>5. 保存期限</h2>
+      <ul>
+        <li>本機筆記與緩存在您刪除內容或卸載應用前會保留。</li>
+        <li>網絡請求由第三方 API 按其自身政策處理。當前版本不在廚邦幫自有云端長期保存您的聊天或筆記。</li>
+      </ul>
+
+      <h2>6. 安全</h2>
+      <p>API 通信使用 HTTPS。任何傳輸或存儲方式都無法保證百分之百安全，請妥善保管並及時更新設備。</p>
+
+      <h2>7. 第三方服務</h2>
+      <p><strong>HowToCook API / CDN</strong><br />作用：提供菜譜與圖片<br />政策：howtocook.cn 相關運營方政策</p>
+      <p><strong>SiliconFlow</strong><br />作用：AI 對話與視覺識別<br />政策：<a href="https://siliconflow.cn" rel="noopener noreferrer">https://siliconflow.cn</a>（以其隱私條款為準）</p>
+      <p><strong>Google Play / Android 系統</strong><br />作用：應用分發、系統相冊選擇器與相機<br />政策：Google 隱私政策</p>
+
+      <h2>8. 您的選擇</h2>
+      <ul>
+        <li>在 <strong>設定 → 語言</strong> 切換語言</li>
+        <li>在筆記頁刪除筆記</li>
+        <li>在系統應用設定中撤銷相機權限</li>
+        <li>卸載應用以清除本機數據庫與緩存</li>
+      </ul>
+
+      <h2>9. 跨境與多語言</h2>
+      <p>本應用可提供繁體中文、簡體中文與英文界面。網絡服務可能位於您所在國家/地區之外；使用網絡功能即表示您理解數據可能在服務提供商運營地區處理，並受適用法律約束。</p>
+
+      <h2>10. 政策變更</h2>
+      <p>我們可能更新本政策，並修改「最近更新日期」。更新後繼續使用本應用，即視為接受修訂內容。重大變更將儘可能在應用內提示。</p>
+
+      <h2>11. 聯繫我們</h2>
+      <p>有關廚邦幫隱私問題，請通過以下方式聯繫我們：</p>
+      <p><strong>郵箱：</strong> <a href="mailto:infomacro.service@gmail.com">infomacro.service@gmail.com</a><br />
+      <strong>開發者 / 主體名稱：</strong> 萬高信息科技有限公司（Infomacro Information Technology Limited）<br />
+      <strong>聯繫電話：</strong> +853 62121538</p>
+    </article>
+
+    <!-- English -->
+    <article id="panel-en" role="tabpanel" lang="en" hidden>
+      <p>This Privacy Policy explains how CookBang (“we”, “the App”) handles information when you use the Android application. By using the App, you agree to this Policy.</p>
+
+      <h2>1. Overview</h2>
+      <p>CookBang is a cooking helper that provides:</p>
+      <ul>
+        <li>Recipe browsing and search (via the public HowToCook API)</li>
+        <li>Local cooking notes stored on your device</li>
+        <li>Cooking tips packaged in the App</li>
+        <li>An optional “AI Chef” feature that can send text and, if you choose, a food photo to a third-party AI service for cooking-related answers</li>
+      </ul>
+      <p>We do <strong>not</strong> require you to create an account. We do <strong>not</strong> sell your personal information.</p>
+
+      <h2>2. Information we process</h2>
+      <h3>2.1 Information stored only on your device</h3>
+      <p><strong>Cooking notes (title, text, images you add)</strong><br />Purpose: Let you keep personal cooking notes<br />Shared with others: No (unless you export or share yourself)</p>
+      <p><strong>Recipe list cache</strong><br />Purpose: Faster browsing and weak-network use<br />Shared with others: No</p>
+      <p><strong>Language preference</strong><br />Purpose: Remember your UI language<br />Shared with others: No</p>
+
+      <h3>2.2 Information processed when you use network features</h3>
+      <p><strong>Recipe and search requests</strong><br />When: While you browse or search recipes<br />Purpose: Fetch recipe content<br />Recipients: HowToCook public API (api.howtocook.cn) and image CDN</p>
+      <p><strong>Text you type in AI Chef</strong><br />When: When you send a message<br />Purpose: Generate cooking guidance<br />Recipients: SiliconFlow AI API (api.siliconflow.cn)</p>
+      <p><strong>Photos you attach in AI Chef (camera or gallery)</strong><br />When: Only when you explicitly add an image<br />Purpose: Dish recognition and image-based cooking answers<br />Recipients: SiliconFlow AI API</p>
+      <p><strong>Basic technical data (e.g. IP address, TLS metadata)</strong><br />When: Automatically when connecting to servers<br />Purpose: Deliver and secure the request<br />Recipients: Network providers and the API operators above</p>
+      <p>We do <strong>not</strong> intentionally collect: name, email, phone number, precise location, contacts, SMS, call logs, or advertising IDs for ads profiling.</p>
+
+      <h3>2.3 Permissions</h3>
+      <p><strong>Internet / network state</strong><br />Used to load recipes and call AI services.</p>
+      <p><strong>Camera</strong><br />Optional. Used to take a dish photo for AI Chef.</p>
+      <p>Gallery selection uses the system document or photo picker (SAF) and does <strong>not</strong> require broad photo library or storage read permission.</p>
+      <p>You can deny camera permission; recipe browsing, notes, and tips still work. Without camera access, AI capture is unavailable; gallery pick does not need storage permission.</p>
+
+      <h2>3. AI processing notice</h2>
+      <p>If you use AI Chef:</p>
+      <ul>
+        <li>Content you submit (text and optional image) is transmitted to SiliconFlow to generate a response.</li>
+        <li>Do <strong>not</strong> submit sensitive personal data, third-party private photos without permission, medical advice requests, or illegal content.</li>
+        <li>AI answers are for general cooking reference only and are not professional dietary, medical, or food-safety certification.</li>
+        <li>Images are processed for the request; we do not operate a separate cloud album of your photos inside CookBang.</li>
+      </ul>
+
+      <h2>4. Children’s privacy</h2>
+      <p>The App is intended for a general audience interested in cooking. It is not directed at children under 13 (or the equivalent minimum age in your region). We do not knowingly collect personal information from children. If you believe a child provided personal data through the App, contact us so we can help with on-device data removal guidance.</p>
+
+      <h2>5. Data retention</h2>
+      <ul>
+        <li>On-device notes and cache remain until you delete them or uninstall the App.</li>
+        <li>Network requests are processed by third-party APIs under their own retention practices. We do not operate a CookBang user cloud database for your chats or notes in the current version.</li>
+      </ul>
+
+      <h2>6. Security</h2>
+      <p>We use HTTPS for API communication. No method of transmission or storage is 100% secure. Please keep your device locked and updated.</p>
+
+      <h2>7. Third-party services</h2>
+      <p><strong>HowToCook API / CDN</strong><br />Role: Recipes and images<br />Policy: Operator of howtocook.cn services</p>
+      <p><strong>SiliconFlow</strong><br />Role: AI chat and vision<br />Policy: <a href="https://siliconflow.cn" rel="noopener noreferrer">https://siliconflow.cn</a> (see their privacy terms)</p>
+      <p><strong>Google Play / Android OS</strong><br />Role: Distribution, system photo picker, and camera<br />Policy: Google privacy policies</p>
+
+      <h2>8. Your choices</h2>
+      <ul>
+        <li>Change language in <strong>Settings → Language</strong></li>
+        <li>Clear notes by deleting them in the Notes tab</li>
+        <li>Revoke camera permission in system App settings</li>
+        <li>Uninstall the App to remove local databases and cache</li>
+      </ul>
+
+      <h2>9. International users</h2>
+      <p>The App may offer Traditional Chinese, Simplified Chinese, and English UI. Network services may be located outside your country; by using network features you understand data may be processed in the regions where those providers operate, subject to applicable law.</p>
+
+      <h2>10. Changes</h2>
+      <p>We may update this Policy. The “Last updated” date will change. Continued use after an update means you accept the revised Policy. Material changes should be highlighted in-app when feasible.</p>
+
+      <h2>11. Contact</h2>
+      <p>For privacy questions about CookBang, please contact us at:</p>
+      <p><strong>Email:</strong> <a href="mailto:infomacro.service@gmail.com">infomacro.service@gmail.com</a><br />
+      <strong>Developer / legal entity:</strong> Infomacro Information Technology Limited<br />
+      <strong>Phone:</strong> +853 62121538</p>
+    </article>
+
+    <footer>© Infomacro Information Technology Limited · CookBang Privacy Policy</footer>
+  </div>
+
+  <script>
+    (function () {
+      var titles = {
+        "zh-cn": "隐私政策",
+        "zh-tw": "隱私政策",
+        "en": "Privacy Policy"
+      };
+      var metas = {
+        "zh-cn": "应用名称：厨邦帮（CookBang） · 最近更新：2026-10-26 · 发布方：InfoMacro",
+        "zh-tw": "應用名稱：廚邦幫（CookBang） · 最近更新：2026-10-26 · 發佈方：InfoMacro",
+        "en": "App: CookBang · Last updated: 2026-10-26 · Publisher: InfoMacro"
+      };
+      var htmlLang = {
+        "zh-cn": "zh-Hans",
+        "zh-tw": "zh-Hant",
+        "en": "en"
+      };
+
+      function show(lang) {
+        ["zh-cn", "zh-tw", "en"].forEach(function (key) {
+          var panel = document.getElementById("panel-" + key);
+          var tab = document.getElementById("tab-" + key);
+          var on = key === lang;
+          panel.hidden = !on;
+          tab.setAttribute("aria-selected", on ? "true" : "false");
+        });
+        document.getElementById("page-title").textContent = titles[lang];
+        document.getElementById("page-meta").textContent = metas[lang];
+        document.documentElement.lang = htmlLang[lang];
+        try {
+          history.replaceState(null, "", "#" + lang);
+        } catch (e) {}
+      }
+
+      document.querySelectorAll(".langs button").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          show(btn.getAttribute("data-lang"));
+        });
+      });
+
+      var hash = (location.hash || "").replace("#", "").toLowerCase();
+      if (hash === "zh-tw" || hash === "zh-hant" || hash === "tw") show("zh-tw");
+      else if (hash === "en" || hash === "english") show("en");
+      else show("zh-cn");
+    })();
+  </script>
+</body>
+</html>
